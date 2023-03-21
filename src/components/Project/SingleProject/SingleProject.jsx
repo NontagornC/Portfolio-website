@@ -13,14 +13,14 @@ const SingleProject = () => {
             </div>
             <div className="flex flex-col items-center justify-center">
               <div className="flex flex-col items-center px-12 " key={e.name}>
-                <h1 className="text-[24px] py-2 font-semibold">{e.name}</h1>
-                <span>{e.des}</span>
+                <h1 className="text-[36px] py-2 font-semibold">{e.name}</h1>
+                <span className="text-[28px] text-center">{e.des}</span>
                 <div className="justify-center">
                   {e.tool}
                 </div>
                 <div className="flex">
-                  <button className="md:w-[100px] md:h-[40px] bg-red-500 m-5 w-[75px] h-[30px] rounded-xl">demo</button>
-                  <button className="md:w-[100px] md:h-[40px] bg-red-500 m-5 w-[75px] h-[30px] rounded-xl">git repo</button>
+                  <button className="bg-red-500 md:w-[200px] md:h-[80px] m-5 w-[150px] h-[60px] rounded-xl uppercase text-[20px] lg:text-[24px]">demo</button>
+                  <button className="bg-red-500 md:w-[200px] md:h-[80px] m-5 w-[150px] h-[60px] rounded-xl uppercase text-[20px] lg:text-[24px]">git repo</button>
                 </div>
               </div>
             </div>
