@@ -12,15 +12,15 @@ const SingleProject = () => {
               <AiFillDingtalkSquare/>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <div className="flex flex-col items-center px-12 " key={e.name}>
-                <h1 className="text-[36px] py-2 font-semibold">{e.name}</h1>
+              <div className="flex flex-col items-center px-12" key={e.name}>
+                <h1 className="text-[36px] py-2 font-semibold text-[#7743DB]">{e.name}</h1>
                 <span className="text-[28px] text-center">{e.des}</span>
                 <div className="justify-center">
                   {e.tool}
                 </div>
                 <div className="flex">
-                  <button className="bg-red-500 md:w-[200px] md:h-[80px] m-5 w-[150px] h-[60px] rounded-xl uppercase text-[20px] lg:text-[24px]">demo</button>
-                  <button className="bg-red-500 md:w-[200px] md:h-[80px] m-5 w-[150px] h-[60px] rounded-xl uppercase text-[20px] lg:text-[24px]">git repo</button>
+                  <button className="md:w-[200px] md:h-[80px] m-5 w-[150px] h-[60px] rounded-xl uppercase text-[20px] lg:text-[24px] border-solid border-2 border-[#7743DB] hover:text-[#7743DB] hover:shadow-2xl hover:translate-x-[-10px] hover:bg-[#352166]">demo</button>
+                  <button className="md:w-[200px] md:h-[80px] m-5 w-[150px] h-[60px] rounded-xl uppercase text-[20px] lg:text-[24px] border-solid border-2 border-[#7743DB] hover:text-[#7743DB] hover:shadow-2xl hover:translate-x-[-10px] hover:bg-[#352166]">git repo</button>
                 </div>
               </div>
             </div>

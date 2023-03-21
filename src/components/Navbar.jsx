@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='text-white flex justify-between items-center h-24 max-w-[90%] md:max-w-[80%] mx-auto px-4 '>
-        <h1 className="w-full text-2xl  md:text-3xl text-[#38BDF8] font-bold p-4 uppercase">Nontagorn C.</h1>
+        <h1 className="w-full text-2xl  md:text-3xl text-[#7de4cc] font-bold p-4 uppercase">Nontagorn C.</h1>
 
         <ul className="hidden md:flex text-2xl md:text-3xl">
             <li className="p-4 cursor-pointer">Home</li>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
 
         <div className={nav ? "fixed left-0 top-0 w-[40%] border-r-gray-900 h-full bg-[#0F172A] ease-in-out duration-700 px-4" : "fixed left-[-100%]"}>
-          <h1 className="w-full text-1xl  md:text-2xl text-[#38BDF8] font-bold p-4">REACT.</h1>
+          <h1 className="w-full text-1xl  md:text-2xl text-[#7de4cc] font-bold p-4">REACT.</h1>
           <ul className="uppercase p-4 text-2xl">
             <li className="p-4 border-b border-gray-600 cursor-pointer">Home</li>
             <li className="p-4 border-b border-gray-600 cursor-pointer">About</li>

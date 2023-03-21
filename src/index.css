@@ -9,3 +9,72 @@
     font-family: "Eudoxus Sans", sans-serif;
     scroll-behavior: smooth;
   }
+
+
+
+  .gradient-01 {
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    left: 15%;
+    top: 5%;
+    background: rgba(149, 66, 232, 0.3);
+    filter: blur(175px);
+    transform: rotate(114.2deg);
+  }
+  
+  .gradient-02 {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    right: 30%;
+    top: 2%;
+    background: rgba(20, 66, 144, 0.6);
+    filter: blur(175px);
+    transform: rotate(-114.2deg);
+  }
+
+  .gradient-03 {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    left: 20%;
+    top: 5%;
+    background: rgb(14, 131, 136, 0.35);
+    filter: blur(175px);
+    transform: rotate(-114.2deg);
+  }
+
+  .gradient-04 {
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    right: 15%;
+    bottom: 20%;
+    background: rgba(149, 66, 232, 0.3);
+    filter: blur(175px);
+    transform: rotate(250deg);
+  }
+
+  .gradient-05 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    right: 20%;
+    top: 5%;
+    background: rgb(255, 124, 124, 0.6);
+    filter: blur(175px);
+    transform: rotate(114.2deg);
+  }
+  .gradient-06 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    right: 20%;
+    top: 5%;
+    background: rgb(237, 223, 179, 0.6);
+    filter: blur(175px);
+    transform: rotate(60deg);
+  }
+
+
