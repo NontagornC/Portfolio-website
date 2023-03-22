@@ -1,7 +1,7 @@
 // import { SiVite } from "react-icons/si";
 import { DiReact,DiHtml5,DiCss3,DiSass,DiJavascript1,DiBootstrap} from "react-icons/di";
 import { SiTailwindcss,SiVite} from "react-icons/si";
-import { e_commerce,currency_app,weather } from "../assets/assets";
+import { e_commerce,currency_app,weather,portfolio } from "../assets/assets";
 
 export const projectData = [
   {
@@ -14,7 +14,7 @@ export const projectData = [
       </div>
     ),
     img:(
-      <img src={e_commerce} alt="e-commerce app" />
+      <img src={portfolio} alt="e-commerce app" />
     )
   },
   {
