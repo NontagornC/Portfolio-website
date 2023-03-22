@@ -15,7 +15,9 @@ export const projectData = [
     ),
     img:(
       <img src={portfolio} alt="e-commerce app" />
-    )
+    ),
+    demo: "https://nontagorn.ch.netlify.app/",
+    github: "https://github.com/NontagornC/Portfolio-website"
   },
   {
     id: 2,
@@ -27,7 +29,9 @@ export const projectData = [
       </div>
     ),img:(
       <img src={currency_app} alt="e-commerce app" />
-    )
+      ),
+      demo: "https://ntgcurrency.netlify.app/",
+      github: "https://github.com/NontagornC/Crypto-tracker"
   },
   {
     id: 3,
@@ -40,6 +44,9 @@ export const projectData = [
     ),img:(
       <img src={e_commerce} alt="e-commerce app" />
     )
+    ,
+    demo: "https://ntgstore.netlify.app/",
+    github: "https://github.com/NontagornC/E-commerce"
   },
   {
     id: 4,
@@ -51,6 +58,8 @@ export const projectData = [
       </div>
     ),img:(
       <img src={weather} alt="e-commerce app" />
-    )
+    ),
+    demo: "https://ntg-weather-app.netlify.app/",
+    github: "https://github.com/NontagornC/Weather-App"
   },
 ];
