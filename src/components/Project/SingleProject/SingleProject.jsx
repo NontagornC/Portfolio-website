@@ -51,7 +51,7 @@ const SingleProject = () => {
               >
               <div className="flex flex-col items-center px-12" key={e.name}>
                 <h1 className="text-[24px] md:text-[30px] py-2 font-semibold text-[#7743DB]">{e.name}</h1>
-                <span className="lg:text-[20px] md:text-[18px] text-[16px] text-center">{e.des}</span>
+                <span className="lg:text-[20px] md:text-[18px] sm:text-[16px] text-[13px] text-center px-5">{e.des}</span>
                 <div className="justify-center">
                   {e.tool}
                 </div>

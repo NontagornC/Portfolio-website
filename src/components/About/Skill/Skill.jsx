@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const Skill = () => {
 
   return (
-    <div className="w-[80%] py-20 relative">
+    <div className="w-[80%] py-20 relative z-10">
         <motion.h3 
             className="text-[20px] md:text-[25px] px-12 uppercase font-bold"
             variants={{
@@ -79,7 +79,7 @@ const Skill = () => {
                 <DiSass/>
                 <span className="md:text-xl text-sm pt-3">SASS</span>
             </div>
-            <div className="flex flex-col justify-center items-center text-[60px] p-5">
+            <div className="flex flex-col justify-center items-center text-[60px] p-5 ">
                 <DiJavascript1/>
                 <span className="md:text-xl text-sm pt-3">JAVASCRIPT</span>
             </div>

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="home">
       <motion.div className="text-white flex justify-center items-center min-h-screen flex-col"
       variants={{
         hidden: {

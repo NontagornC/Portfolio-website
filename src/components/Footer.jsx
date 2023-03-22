@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
-    <div>
+    <div id="contact">
         <motion.div className="text-white w-[80%] flex flex-col justify-center text-center mx-auto my-8 border-y-2 relative"
           variants={{
             hidden: {
@@ -56,17 +56,17 @@ const Footer = () => {
           initial="hidden"
           whileInView="show"
           >
-          <h1 className="text-[30px] uppercase my-8 font-semibold">Nontagorn Chantarasena</h1>
-          <div className="grid grid-cols-2">
-            <div className="flex flex-col justify-center text-center">
-              <h1 className="text-[14px] md:text-[18px] font-semibold py-3">Follow me</h1>
-              <a className="text-[14px] md:text-[18px] py-3 overflow-hidden hover:text-[#EDDFB3]" href="https://github.com/NontagornC">Github</a>
-              <a className="text-[14px] md:text-[18px] py-3 overflow-hidden hover:text-[#EDDFB3]" href="https://www.linkedin.com/in/nontagorn-chantarasena/">LinkedIn</a>
+          <h1 className="text-[16px] sm:text-[20px] md:text-[30px] uppercase my-8 font-semibold">Nontagorn Chantarasena</h1>
+          <div className="grid grid-cols-2 text-[12px] sm:text-[14px] md:text-[18px] px-4">
+            <div className="flex flex-col justify-center text-center ">
+              <h1 className="font-semibold py-3">Follow me</h1>
+              <a className="py-3 overflow-hidden hover:text-[#EDDFB3]" href="https://github.com/NontagornC">Github</a>
+              <a className="py-3 overflow-hidden hover:text-[#EDDFB3]" href="https://www.linkedin.com/in/nontagorn-chantarasena/">LinkedIn</a>
             </div>
-            <div  className="flex flex-col justify-center text-center overflow-hidden">
-              <h1 className="text-[14px] md:text-[18px] font-semibold py-3">Contact</h1>
-              <a  className="text-[14px] md:text-[18px] py-3 ">(+66) 88 225 7757</a>
-              <a  className="text-[14px] md:text-[18px] py-3 hover:text-[#EDDFB3]" href="mailto:nontagorn.ch@gmail.com">nontagorn.ch@gmail.com</a>
+            <div  className="flex flex-col justify-center text-center overflow-hidden ">
+              <h1 className="font-semibold py-3">Contact</h1>
+              <a  className="py-3 ">(+66) 88 225 7757</a>
+              <a  className="py-3 hover:text-[#EDDFB3]" href="mailto:nontagorn.ch@gmail.com">nontagorn.ch@gmail.com</a>
             </div>
           </div>
         </motion.footer>
