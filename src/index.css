@@ -16,7 +16,7 @@
     position: absolute;
     width: 600px;
     height: 800px;
-    left: 15%;
+    left: -10%;
     top: 5%;
     background: rgba(149, 66, 232, 0.3);
     filter: blur(175px);
@@ -28,7 +28,7 @@
     width: 400px;
     height: 800px;
     right: 30%;
-    top: 2%;
+    top: -20%;
     background: rgba(20, 66, 144, 0.6);
     filter: blur(175px);
     transform: rotate(-114.2deg);
@@ -49,8 +49,8 @@
     position: absolute;
     width: 600px;
     height: 800px;
-    right: 15%;
-    bottom: 20%;
+    right: -15%;
+    bottom: 30%;
     background: rgba(149, 66, 232, 0.3);
     filter: blur(175px);
     transform: rotate(250deg);
@@ -62,9 +62,9 @@
     height: 500px;
     right: 20%;
     top: 5%;
-    background: rgb(255, 124, 124, 0.6);
+    background: rgb(255, 124, 124, 0.4);
     filter: blur(175px);
-    transform: rotate(114.2deg);
+    transform: rotate(300deg);
   }
   .gradient-06 {
     position: absolute;

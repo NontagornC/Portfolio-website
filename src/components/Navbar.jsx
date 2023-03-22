@@ -11,13 +11,13 @@ const Navbar = () => {
 
   return (
     <div className='text-white flex justify-between items-center h-24 max-w-[90%] md:max-w-[80%] mx-auto px-4 '>
-        <h1 className="w-full text-2xl  md:text-3xl text-[#7de4cc] font-bold p-4 uppercase">Nontagorn C.</h1>
+        <h1 className="w-full text-xl  md:text-2xl text-[#7de4cc] font-bold p-4 uppercase">Nontagorn C.</h1>
 
-        <ul className="hidden md:flex text-2xl md:text-3xl">
-            <li className="p-4 cursor-pointer">Home</li>
-            <li className="p-4 cursor-pointer">About</li>
-            <li className="p-4 cursor-pointer">Project</li>
-            <li className="p-4 cursor-pointer">Contact</li>
+        <ul className="hidden md:flex text-md md:text-xl">
+            <li className="p-4 cursor-pointer uppercase">Home</li>
+            <li className="p-4 cursor-pointer uppercase">About</li>
+            <li className="p-4 cursor-pointer uppercase">Project</li>
+            <li className="p-4 cursor-pointer uppercase">Contact</li>
         </ul>
 
         <div onClick={()=>handleNav()} className="block md:hidden">

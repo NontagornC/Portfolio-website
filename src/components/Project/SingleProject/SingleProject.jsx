@@ -1,20 +1,19 @@
 import React from 'react'
 import { projectData } from '../../../utils/project'
-import { AiFillDingtalkSquare } from "react-icons/ai";
 
 const SingleProject = () => {
   return (
     <div>
       {projectData.map((e) => {
         return (
-          <div className="grid md:grid-cols-2 w-full py-8 grid-cols-1" >
+          <div className="grid lg:grid-cols-2 w-full py-8 grid-cols-1" key={e.id}>
             <div className="flex flex-col items-center justify-center text-[400px]">
-              <AiFillDingtalkSquare/>
+              {e.img} 
             </div>
             <div className="flex flex-col items-center justify-center">
               <div className="flex flex-col items-center px-12" key={e.name}>
-                <h1 className="text-[36px] py-2 font-semibold text-[#7743DB]">{e.name}</h1>
-                <span className="text-[28px] text-center">{e.des}</span>
+                <h1 className="text-[24px] md:text-[30px] py-2 font-semibold text-[#7743DB]">{e.name}</h1>
+                <span className="text-[18px] md:text-[22px] text-center">{e.des}</span>
                 <div className="justify-center">
                   {e.tool}
                 </div>

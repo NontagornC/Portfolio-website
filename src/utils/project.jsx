@@ -1,6 +1,7 @@
 // import { SiVite } from "react-icons/si";
 import { DiReact,DiHtml5,DiCss3,DiSass,DiJavascript1,DiBootstrap} from "react-icons/di";
 import { SiTailwindcss,SiVite} from "react-icons/si";
+import { e_commerce,currency_app,weather } from "../assets/assets";
 
 export const projectData = [
   {
@@ -12,6 +13,9 @@ export const projectData = [
         <DiReact/><SiTailwindcss/><SiVite/><DiCss3/><DiHtml5/><DiJavascript1/>
       </div>
     ),
+    img:(
+      <img src={e_commerce} alt="e-commerce app" />
+    )
   },
   {
     id: 2,
@@ -21,7 +25,9 @@ export const projectData = [
       <div className="flex items-center text-[45px] gap-3 py-6">
         <DiReact/><DiBootstrap/><DiSass /> <DiHtml5/><DiJavascript1/>
       </div>
-    ),
+    ),img:(
+      <img src={currency_app} alt="e-commerce app" />
+    )
   },
   {
     id: 3,
@@ -31,7 +37,9 @@ export const projectData = [
       <div className="flex items-center text-[45px] gap-3 py-6">
         <DiReact/> <DiSass /> <DiHtml5/> <DiCss3/><DiJavascript1/>
       </div>
-    ),
+    ),img:(
+      <img src={e_commerce} alt="e-commerce app" />
+    )
   },
   {
     id: 4,
@@ -41,6 +49,8 @@ export const projectData = [
       <div className="flex items-center text-[45px] gap-3 py-6">
         <DiReact/><SiTailwindcss/><SiVite/><DiCss3/><DiHtml5/><DiJavascript1/>
       </div>
-    ),
+    ),img:(
+      <img src={weather} alt="e-commerce app" />
+    )
   },
 ];
