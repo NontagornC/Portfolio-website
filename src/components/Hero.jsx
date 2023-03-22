@@ -63,9 +63,9 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
       >
-          <a className="text-[20px] my-3 hover:text-[#7de4cc] md:text-3xl" href=""><BsGithub/></a>
-          <a className="text-[20px] my-3 hover:text-[#7de4cc] md:text-3xl" href=""><BsLinkedin/></a>
-          <a className="text-[20px] my-3 hover:text-[#7de4cc] md:text-3xl" href=""><BsFacebook/></a>
+          <a className="text-[20px] my-3 hover:text-[#7de4cc] md:text-3xl" href="https://github.com/NontagornC"><BsGithub/></a>
+          <a className="text-[20px] my-3 hover:text-[#7de4cc] md:text-3xl" href="https://www.linkedin.com/in/nontagorn-chantarasena/"><BsLinkedin/></a>
+          <a className="text-[20px] my-3 hover:text-[#7de4cc] md:text-3xl" href="https://www.facebook.com/"><BsFacebook/></a>
       </motion.div>
 
       <div className="gradient-03" />
