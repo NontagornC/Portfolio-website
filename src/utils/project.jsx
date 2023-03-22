@@ -16,7 +16,7 @@ export const projectData = [
     img:(
       <img src={portfolio} alt="e-commerce app" />
     ),
-    demo: "https://nontagorn.ch.netlify.app/",
+    demo: "https://nontagornch.netlify.app/",
     github: "https://github.com/NontagornC/Portfolio-website"
   },
   {
